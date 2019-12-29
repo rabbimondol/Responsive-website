@@ -1,0 +1,120 @@
+/*rules for 1023-1200px width */
+@media only screen and (max-width:1200px){
+    
+}
+
+
+/*rules for 767-1023px width */
+@media only screen and (max-width:1023px){
+    .hero-text-box
+ {
+    width: 100%;
+     font-size: 90%;
+}
+    section
+    {
+        padding: 60px 0;
+    }
+    .section-form{width: 80%;}
+}
+/*rules for 480-767px width */
+@media only screen and (max-width:817px){
+/*    .main-nav{display: none;}*/
+    .icon-nav-round
+    {
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .main-nav
+    {
+        float: left;
+        font-size: 100%;
+        display: none;
+    }
+    .main-nav li
+    {
+        display: block;
+        margin-bottom: 6px;
+        padding: 5px 0;
+       
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited
+    {
+/*        display: block;*/
+        border: 0;
+    }
+    .logo
+    {
+        margin-left: 0;
+        
+    }
+    .sticky .icon-nav-round
+    {
+        color: #555;
+    }
+}
+/*rules for 480-767px width */
+@media only screen and (max-width:767px){
+    
+    .hero-text-box
+    {
+        font-size: 70%;
+    }
+    .steps-box
+{
+    margin-top: 0;
+}
+    .app-screen
+{
+    width: 50%;
+    height: auto;
+    
+}
+    .work-step
+{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+    .phone
+    {
+        margin-top: 5px;
+        width: 50%;
+    }
+    .smail-icon{width: 15px}
+    .city-feature{font-size: 90%}
+    .plan-box{width: 100%;box-shadow: 0 0 10px 2px #000;height: auto;}
+    
+}
+
+/*rules for 0- 480px width */
+@media only screen and (max-width:500px){
+        
+    .logo{height: 80px}
+    .app-screen{width: 80j%;}
+}
+
+@media only screen and (max-width:100px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
